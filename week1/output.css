@@ -610,32 +610,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@layer {
-  .ticked {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .ticked {
-    text-transform: lowercase;
-  }
-
-  .ticked::after {
-    content: var(--tw-content);
-    margin-left: 0.5rem;
-  }
-
-  .ticked::after {
-    --tw-content: '☑️';
-    content: var(--tw-content);
-  }
-
-  .ticked:hover::after {
-    --tw-content: '✅';
-    content: var(--tw-content);
-  }
-}
-
 .after\:ml-2::after {
   content: var(--tw-content);
   margin-left: 0.5rem;
