@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .ticked {
+        @apply text-lg lowercase after:ml-2 after:content-['☑️'] hover:after:content-['✅'];
+    }
+}
